@@ -231,7 +231,7 @@
                             </x-accessibility.main-content-wrapper>
 
                             @if (isset($currentVersion) && isset($currentSection))
-                                <div class="flex my-10">
+                                <div class="flex py-10">
                                     <a 
                                         target="_blank"
                                         href="https://github.com/laravel/docs/edit/{{$currentVersion}}{{$currentSection}}.md"
